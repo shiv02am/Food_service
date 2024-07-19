@@ -1,0 +1,84 @@
+#navbar {
+  flex-direction: column;
+}
+#navbar ul li a {
+  font-size: 1rem;
+  padding: 0px 8px;
+  padding-bottom: 8px;
+}
+
+#home {
+  height: 370px;
+  padding: 3px 30px;
+}
+#home::before {
+  height: 480px;
+}
+#home p {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+#services {
+  flex-direction: column;
+}
+#services .box {
+  padding: 14px;
+  margin: 2px 0px;
+  margin-bottom: 20px;
+}
+
+#clients {
+  flex-wrap: wrap;
+}
+#clients img {
+  width: 66px;
+  padding: 8px;
+  height: auto;
+}
+#contact-box form {
+  width: 80%;
+}
+
+/* Utility class */
+.h-primary {
+  font-size: 30px;
+}
+.btn {
+  padding: 4px 8px;
+  font-size: 1.5rem;
+}
+
+
+
+
+.toggle_btn{
+  display: flex;
+}
+.navbar-links{
+  display: none;
+  width: 100%;
+
+}
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+    }
+.navbar-links ul{
+  width: 100%;
+  flex-direction: column;
+
+}
+.navbar-links li{
+  text-align: center;
+}
+
+.navbar-links li a { 
+  padding: 0.5ree 1rem;
+ 
+
+}
+.navbar-links.active{
+  display: flex;
+
+}
